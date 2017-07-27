@@ -1,0 +1,65 @@
+body{
+	background-color: lightgrey;
+}
+
+header{
+	height: 5em;
+}
+
+header .row,
+footer .row{
+	display: flex;
+	align-items: center;
+
+}
+
+header h2{
+	align-content: left;
+	font-size: 2.5em;
+	font-family: 'Pacifico', cursive;
+	color: lightsalmon;
+
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p{
+	padding-left: 4em;
+	font-size: 1.5em;
+	color: indianred;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.jumbotron{
+	display: flex;
+	align-items: center;
+	background-image: url("https://thumb1.shutterstock.com/display_pic_with_logo/1751357/198127814/stock-photo-pink-sakura-japanese-background-198127814.jpg");
+	background-size: cover;
+
+}
+
+.jumbotron h1{
+	font-family: 'Dancing Script', cursive;
+}
+
+.jumbotron h2{
+	font-family: 'Amatic SC', cursive; 	
+}
+
+.btn.btn-primary{
+	border-radius: 1em;
+	border: 0px;
+    color: darkslateblue;
+    text-shadow: none;
+    background-color: #ffffff;
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}

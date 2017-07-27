@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: lightgrey;
+	padding: 5px 0;
+	display: table;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.christinesite{
+	background-color: black;
+	margin: 10px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.8em;
+	color: white;
+	padding: 5px 5px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+header{	
+	background-size: cover;
+	height: 25em;
+	margin: 10px 0px;
+	padding: 0;
+	background: url(https://68.media.tumblr.com/68a838b7735c76cce7f1e77f518c269a/tumblr_nlqwi3O6XN1s1vn29o1_1280.jpg) no-repeat center;
+	opacity: 0.7;
+	background-size: 100%;
+}
+
+.headertext{
+	padding-top: 3em;
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.image{
+	display: inline-block;
+	margin: 0px 2% 80px 2%;
+	text-align: center;
+	width: 45%;
+}
+
+.image img{
+	width: 100%;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.foot{
+	font-size: 16px;
+	color: darkslateblue;
+}
